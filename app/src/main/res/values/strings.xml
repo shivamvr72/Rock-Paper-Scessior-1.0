@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Rock Paper Scessor 2.0</string>
+    <string name="play">Play</string>
+    <string name="no_of_rounds">No of Rounds</string>
+    <string name="player_s_name">Player\'s Name</string>
+    <string name="_0">0</string>
+    <string name="_00">0</string>
+    <string name="player">Player</string>
+    <string name="computer">Computer</string>
+    <string name="reset">Reset</string>
+    <string name="rock_paper_scissor">Rock Paper Scissor</string>
+    <string name="todo">TODO</string>
+</resources>

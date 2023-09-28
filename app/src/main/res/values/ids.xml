@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="textView3" type="id" />
+    <item name="imgViewComp" type="id" />
+    <item name="imgViewPlayer" type="id" />
+    <item name="txtTitle1" type="id" />
+    <item name="textView2" type="id" />
+    <item name="btnReset" type="id" />
+    <item name="imgrock" type="id" />
+    <item name="imgpaper" type="id" />
+    <item name="imgscissor" type="id" />
+    <item name="txtScorePlayer" type="id" />
+    <item name="txtScoreCompter" type="id" />
+</resources>

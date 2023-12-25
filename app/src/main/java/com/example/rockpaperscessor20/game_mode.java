@@ -2,6 +2,8 @@ package com.example.rockpaperscessor20;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -56,6 +58,7 @@ public class game_mode extends AppCompatActivity {
         ImageButton rock = findViewById(R.id.imgrock);
         ImageButton paper = findViewById(R.id.imgpaper);
         ImageButton scissor = findViewById(R.id.imgscissor);
+        Button rules = findViewById(R.id.btnrules);
 
 
         //images
@@ -98,6 +101,20 @@ public class game_mode extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 makeZero();
+            }
+        });
+
+        rules.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // getting the fragment
+                GameRules gameRules = new GameRules();
+                FragmentManager fmanager = getSupportFragmentManager();
+                FragmentTransaction ftransaction = fmanager.beginTransaction();
+                ftransaction.replace(R.id.fragmentRules, gameRules);
+                ftransaction.addToBackStack(null);
+                ftransaction.commit();
+
             }
         });
 

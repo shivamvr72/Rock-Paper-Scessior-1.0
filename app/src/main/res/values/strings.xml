@@ -10,4 +10,24 @@
     <string name="reset">Reset</string>
     <string name="rock_paper_scissor">Rock Paper Scissor</string>
     <string name="todo">TODO</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="Rules1">
+         1. There is Three Sing\n
+            Represented by:\n
+            - Rock =  hand fist\n
+            - Paper = hand palm\n
+            - Scissor = Two fingers\n\n
+        2. How to play\n
+            - Player is you and computer\n
+            - highest points in the round will be win\n\n
+        3. Point Counts\n
+            - Rock vs Rock = 0 point\n
+            - Paper vs Paper = 0 point\n
+            - Scissor vs Scissor = 0 point\n
+            - Rock vs Paper = Paper wins 1 point\n
+            - Rock vs Scissor = Rock wins 1 point\n
+            - Paper vs Scissor = Scissor wins 1 point\n\n
+        4. Thank you for playing :)\n
+    </string>
+    <string name="rules">Rules</string>
 </resources>
